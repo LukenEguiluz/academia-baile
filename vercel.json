@@ -5,7 +5,7 @@
       "src": "academia-baile/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "academia-baile/dist"
+        "distDir": "dist"
       }
     }
   ],
