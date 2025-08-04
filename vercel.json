@@ -1,14 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "academia-baile/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
+  "buildCommand": "cd academia-baile && npm run build",
+  "outputDirectory": "academia-baile/dist",
   "rewrites": [
     {
       "source": "/(.*)",
